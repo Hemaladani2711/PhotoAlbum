@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgDetailView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDetailName"
+            android:text="Name of the image"
+            android:padding="8dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_below="@+id/imgDetailView"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDetailDescription"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Description of Image"
+            android:layout_below="@+id/txtDetailName"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
